@@ -1,0 +1,41 @@
+.header h1 {
+    text-shadow: 2px 2px purple;
+    display: flex;
+    justify-content: center;
+  }
+.header{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 25px;
+}
+
+.row li{
+    border-radius: 15px 50px 30px;
+    
+}
+menu li{
+    background-color: #ba83ca;
+}
+.aside {
+    border-radius: 25px;
+}
+
+.aside h2{
+    /* box-shadow: 0 1px 3px rgba(120, 187, 236, 0.12), 0 1px 2px rgba(243, 135, 225, 0.24); */
+    text-shadow: 2px 2px blue;
+}
+.aside p{
+    color: darkblue;
+}
+
+.city h1 {
+    color: plum;
+    text-shadow: 2px 2px 4px skyblue;
+}
+.city p{
+    color: #ba83ca;
+}
+.footer p{
+    background-color: #c777b9;
+    border-radius: 10px;
+}
