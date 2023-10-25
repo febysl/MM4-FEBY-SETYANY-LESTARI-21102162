@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dom Animation</title>
+    <style>
+      body {
+        background-image: url(img/bg.jpeg);
+        background-size: cover;
+        margin: 2rem 4rem;
+        color: navy;
+      }
+      h1 {
+        text-align: center;
+      }
+      #container {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background: pink;
+        border-radius: 10px;
+      }
+      #animate {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: skyblue;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p><button onclick="myMove()">Click Me</button></p>
+
+    <div id="container">
+      <div id="animate"></div>
+    </div>
+
+    <script src="js/scriptDomAnimation.js"></script>
+
+    <p>
+      <a href="https://www.w3schools.com/js/js_htmldom_animate.asp"
+        >Pelajari lebih lanjut mengenai topik ini</a
+      >
+    </p>
+  </body>
+</html>

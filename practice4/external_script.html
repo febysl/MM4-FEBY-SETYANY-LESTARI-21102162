@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Embedded Script</title>
-    <script src="../practice4/js/script1.js"></script>
+    <title>External Script</title>
+    <style>
+        body {
+          background-image: url(img/bg.jpeg);
+          background-size: cover;
+          margin: 2rem 4rem;
+          color: navy;
+        }
+        h1 {
+          text-align: center;
+        }
+      </style>
 </head>
 <body>
     <label>Rumus Luas Segitiga</label><br>
@@ -24,5 +34,6 @@
     <input id="harga" onkeyup="hitung_total()" type="number" placeholder="Harga"/>
     <input id="total" type="number" readonly placeholder="Total"/><br>
     <button onclick="cetak()">Cetak</button><br>   
+    <script src="../practice4/js/script1.js"></script>
 </body>
 </html>

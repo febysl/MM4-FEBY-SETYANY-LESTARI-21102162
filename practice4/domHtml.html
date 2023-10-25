@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Html</title>
+    <style>
+      body {
+        background-image: url(img/bg.jpeg);
+        background-size: cover;
+        margin: 2rem 4rem;
+        color: navy;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DOM Html</h1>
+    <h2>JavaScript can Change HTML</h2>
+
+    <p id="p1">Hello World!</p>
+    <script>
+      document.getElementById("p1").innerHTML = "Hello Feby!";
+    </script>
+
+    <p>
+      <a href="https://www.w3schools.com/js/js_htmldom_html.asp"
+        >Pelajari lebih lanjut mengenai topik ini</a
+      >
+    </p>
+  </body>
+</html>
